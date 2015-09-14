@@ -361,52 +361,62 @@ etherpad: https://etherpad.mozilla.org/RCWyhBJImc
   </div>
 </div> <!-- End of 'shell' section. -->
 
-<div id='git'> <!-- Start of 'Git' section. GitHub browser compatability
-           is given at https://help.github.com/articles/supported-browsers/-->
+<div id='hg'> <!-- Start of 'Mercurial' section. Bitbucket browser compatability
+           is given at https://confluence.atlassian.com/bitbucket/which-browsers-does-bitbucket-support-296092232.html -->
   <h3>Git</h3>
 
   <p>
-    Git is a version control system that lets you track who made changes
+    Mercurial is a version control system that lets you track who made changes
     to what when and has options for easily updating a shared or public
     version of your code
-    on <a href="https://github.com/">github.com</a>. You will need a
-    <a href="https://help.github.com/articles/supported-browsers/">supported</a>
+    on <a href="https://bitbucket.org/">bitbucket.org</a>. You will need a
+    <a href="https://confluence.atlassian.com/bitbucket/which-browsers-does-bitbucket-support-296092232.html">supported</a>
     web browser (current versions of Chrome, Firefox or Safari,
-    or Internet Explorer version 9 or above).
+    or Internet Explorer version 10 or above).
+  </p>
+  <p>
+    If you don't already have one,
+    please create an account for yourself on <a href="https://bitbucket.org/">bitbucket.org</a>.
   </p>
 
   <div class="row">
     <div class="col-md-4">
-      <h4 id="git-windows">Windows</h4>
+      <h4 id="hg-windows">Windows</h4>
       <p>
-        Git should be installed on your computer as part of your Bash
-        install (described above).
+        Install Mercurial and KDiff3 by downloading and running the <a href="http://tortoisehg.bitbucket.org/">TortoiseHg</a> installer.
       </p>
     </div>
     <div class="col-md-4">
-      <h4 id="git-macosx">Mac OS X</h4>
+      <h4 id="hg-macosx">Mac OS X</h4>
       <p>
-        <strong>For OS X 10.9 and higher</strong>, install Git for Mac
-        by downloading and running the most recent "mavericks" installer from
-        <a href="http://sourceforge.net/projects/git-osx-installer/files/">this list</a>.
-        After installing Git, there will not be anything in your <code>/Applications</code> folder,
-        as Git is a command line program.
-        <strong>For older versions of OS X (10.5-10.8)</strong> use the
-        most recent available installer labelled "snow-leopard"
-        <a href="http://sourceforge.net/projects/git-osx-installer/files/">available here</a>.
+        Install Mercurial by downloading and running the installer for your version of OS X from the <a href="https://mercurial.selenic.com/downloads">downloads page</a>.
+        Also,
+        please install the <a href="http://kdiff3.sourceforge.net/">KDiff3</a> diff and merge tool.
+        <strong>
+          Be aware that you must add the KDiff3 installation directory to your system path.
+        </strong>
+        Please ask your instructor to help you do this.
+      </p>
+      <p>
+        If you use the <a href="http://brew.sh/">homebrew</a> package manager,
+        you can install Mercurial with <code>brew install mercurial</code>,
+        and KDiff3 with <code>brew install kdiff3</code>.
       </p>
     </div>
     <div class="col-md-4">
-      <h4 id="git-linux">Linux</h4>
+      <h4 id="hg-linux">Linux</h4>
       <p>
-        If Git is not already available on your machine you can try to
-        install it via your distro's package manager. For Debian/Ubuntu run
-        <code>sudo apt-get install git</code> and for Fedora run
-        <code>sudo yum install git</code>.
+        If Mercurial is not already available on your machine you can try to
+        install it via your distro's package manager.
+        For Debian/Ubuntu run <code>sudo apt-get install mercurial</code> and for Fedora run
+        <code>sudo yum install mercurial</code>.
+        Also,
+        please install the <a href="http://kdiff3.sourceforge.net/">KDiff3</a> diff and merge tool.
+        It should also be available via your package manager.
       </p>
     </div>
   </div>
-</div> <!-- End of 'Git' section. -->
+</div> <!-- End of 'Mercurial' section. -->
 
 <div id="editor"> <!-- Start of 'editor' section. -->
   <h3>Text Editor</h3>
