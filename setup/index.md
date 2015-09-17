@@ -63,3 +63,17 @@ these scripts:
     os.name            : posix
     ...
     ~~~
+
+5.  Start KDiff3 from the shell:
+
+    ~~~
+    $ kdiff3
+    ~~~
+
+    A KDiff3 window and a dialog asking from 3 files (A, B, and C) should open.
+    Click Cancel to exit the dialog,
+    and then exit the window.
+    If that all went well,
+    KDIff3 is installed and on your path,
+    otherwise,
+    please talk to an instructor or helper.
